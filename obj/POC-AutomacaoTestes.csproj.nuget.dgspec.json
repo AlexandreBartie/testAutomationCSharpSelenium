@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DEVOPS\\YDUQS\\POC-AutomacaoTestes\\POC-AutomacaoTestes.csproj": {}
+  },
+  "projects": {
+    "C:\\DEVOPS\\YDUQS\\POC-AutomacaoTestes\\POC-AutomacaoTestes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DEVOPS\\YDUQS\\POC-AutomacaoTestes\\POC-AutomacaoTestes.csproj",
+        "projectName": "POC-AutomacaoTestes",
+        "projectPath": "C:\\DEVOPS\\YDUQS\\POC-AutomacaoTestes\\POC-AutomacaoTestes.csproj",
+        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\DEVOPS\\YDUQS\\POC-AutomacaoTestes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Desenvolvimento-TI/7b9142e5-4bd9-4b1b-a94e-bbba1294158e/_packaging/PacotesVisualStudio/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/bartiedevops/f1311a1f-1997-49f1-b2d4-304b267bba48/_packaging/PacotesVS/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Dooggy.CORE": {
+              "target": "Package",
+              "version": "[1.0.7.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
